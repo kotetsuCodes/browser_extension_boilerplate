@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "ipView",
+  "name": "Boilerplate",
   "version": "1.0",
   "author": "CB",
-  "description": "Displays IP Address of current website",
+  "description": "Boilerplate extension",
   "icons": {
   },
   "content_scripts": [
@@ -12,13 +12,12 @@
         "*://*/*"
       ],
       "js": [
-        "content_scripts/ipView.js"
+        "content_scripts/boilerplate.js"
       ]
     }
   ],
   "permissions": [
     "activeTab",
-    "webRequest",
     "tabs",
     "<all_urls>"
   ],
@@ -29,3 +28,4 @@
     "persistent": true
   }
 }
+
